@@ -68,3 +68,19 @@ span{
 body{
     background-color: black;
 }
+
+@media(max-width:530px){
+  .heading{
+    width: 300px;
+    padding: 40px;
+    gap: 15px;
+  }
+}
+
+@media(max-width:450px){
+  .heading{
+    width: 320px;
+    padding: 15px;
+    gap: 10px;
+  }
+}
